@@ -1,0 +1,63 @@
+.text-editor-container {
+  position: absolute;
+  /* border: 2px solid; */
+  box-shadow: 0px 0px 10px;
+  border-radius: 8px;
+  left: 30vw;
+  top: 20vh;
+  width: 45vw;
+  height: 50vh;
+  z-index: 3;
+  background-color: white;
+  @media (max-width:767px) {
+    width: 92%;
+    height: 50%;
+    top:30%;
+    left:3%;
+  }
+  
+}
+
+.text-editor {
+  height: 85%;
+  width: 100%;
+}
+.ql-editor {
+  height: 100%;
+  width: 100%;
+  background: #f0f5fc;
+  border: 1px solid #e4e8f1;
+  
+  /* border: 2px solid; */
+}
+.ql-container {
+  width: 100%;
+  height: 80%;
+  @media (max-width:976px) {
+    height: 65%;
+  }
+  /* display: none; */
+}
+
+.ql-toolbar{
+  width: 100%;
+  /* color:green; */
+}
+
+.save-button {
+  display: inline-block;
+  padding: 1.5%;
+  margin-bottom: 0.5%;
+  /* margin-top: 0.5%; */
+  width: 20%;
+  background-color: #01a19c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 75%;
+  /* margin-bottom: 1%; */
+}
+.save-button:hover{
+  transform: scale(1.04);
+}

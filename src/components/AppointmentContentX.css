@@ -1,0 +1,28 @@
+.effect-img{
+    display:flex;
+    flex-direction: column;
+    width: 5%;
+    align-items: center;
+    /* border: 1px solid; */
+    height: 100%;
+    margin-right: 0px;
+    margin-left: 0.5%;
+}
+.effect-img img{
+    width: 6%;
+    height: 42%;
+}
+#ellipse{
+    width: 25%;
+    height: 25%;
+}
+.appoinment-content-x{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    @media (max-width:767px) {
+        height: 10vh;
+        /* border: 2px solid; */
+    }
+    box-sizing: border-box;
+}

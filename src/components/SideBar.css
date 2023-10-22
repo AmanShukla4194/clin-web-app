@@ -1,0 +1,110 @@
+.sidebar {
+  /* user-select: none; */
+  /* for mobile devices */
+  @media(max-width:520px) {
+    width:30vw;
+    height:88vh;
+    position: fixed;
+    z-index: 10;
+}
+/* for laptops or desktop */
+@media(min-width:1024px) {
+    width:15%;
+}
+  /* width: 30%; */
+  height: 87.3vh;
+  margin-top: 0.1%;
+  background-color: rgba(1, 198, 178, 1);
+  box-shadow: 3px 4px 4px rgba(2, 0, 2, 0.7);
+  box-sizing: border-box;
+}
+.appointments {
+  @media(max-width:767px) {
+    top:10vh;
+    /* font-size:10%; */
+}
+
+font-size: 90%;
+  cursor: pointer;
+  width: 90%;
+  height: 10%;
+  position: relative;
+  top: 8%;
+  left: 5%;
+  display: flex;
+  border-radius: 12px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+
+  
+  font-family: Inria Sans;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+
+.patient-details {
+  @media(max-width:767px) {
+    top:20vh;
+    /* font-size: 10px; */
+}
+/* user-select: none; */
+font-size: 90%;
+  cursor: pointer;
+  width: 90%;
+  height: 10%;
+  overflow: hidden;
+  position: relative;
+  top: 12%;
+  left: 5%;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inria Sans;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.appointments:hover {
+  background-color: rgba(7, 181, 132, 0.100); 
+  box-shadow: 0px 0px 10px;
+}
+.patient-details:hover {
+  background-color: rgba(7, 181, 132, 0.100);
+  box-shadow: 0px 0px 10px;
+ }
+ 
+img {
+ 
+  width: 30%;
+  height: 30px;
+  margin-top: 1%;
+  padding: 5px;
+  border-radius: 40%;
+} 
+#calendar{
+  @media (max-width:767px) {
+    width: 15px;
+    height: 15px;
+    
+  }
+width: 20px;
+height: 20px;
+/* background-color: aqua; */
+}
+#person{
+  @media (max-width:767px) {
+    height: 15px;
+   width: 15px; 
+  }
+/* background-color: white; */
+
+width: 20px;
+height: 20px;
+}

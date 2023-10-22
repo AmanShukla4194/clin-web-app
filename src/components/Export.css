@@ -1,0 +1,11 @@
+.export{
+    /* border: 1px solid; */
+    width: fit-content;
+    position: absolute;
+    right: 1%;
+    bottom: 2%;
+    height: fit-content;
+    display: flex;
+    
+
+}

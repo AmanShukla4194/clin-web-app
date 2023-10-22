@@ -1,0 +1,7 @@
+body {
+  user-select: none;
+  background-color: #ffffff;
+}
+.PATIENT-DETAILS {
+  display: flex;
+}

@@ -1,0 +1,96 @@
+.content {
+  /* Common styles */
+  background-color: white;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.222);
+  border: none;
+  padding: 2%;
+  margin-top: 6px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  font-family: "Inria Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  position: relative;
+  color: #000000;
+  @media (max-width:767px) {
+    font-size: 16px;
+  }
+  
+}
+
+@media (max-width: 767px) {
+  .content {
+    width: 100%;
+    /* height: 10%; */
+    padding: 4%;
+    padding-right: 0px;
+    font-size: 8px;
+  
+  }
+}
+
+#time {
+  position: absolute;
+  left: 15px;
+}
+
+#date {
+  position: absolute;
+  left: 18%;
+}
+
+#name {
+  /* display: none; */
+  @media (max-width:767px) {
+    font-size: 8px;
+  }
+  position: absolute;
+  left: 33%;
+}
+
+#id {
+  
+  /* display: none; */
+  position: absolute;
+  left: 57%;
+}
+
+#condition {
+  
+  /* display: none; */
+  position: absolute;
+  left: 70%;
+}
+
+.content img {
+  /* Common styles */
+  margin-bottom: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  position: absolute;
+  right: 2%;
+}
+
+@media (max-width: 767px) {
+  .content img {
+    width: 6%;
+    right: 5%;
+    height: 25px;
+  }
+}
+
+.content img:hover {
+  transform: scale(1.2);
+}
+
+.content:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.052);
+}
